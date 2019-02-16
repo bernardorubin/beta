@@ -1,24 +1,21 @@
-# README
+# betaStore
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Steps to run:
 
-Things you may want to cover:
+- git clone this repo
 
-* Ruby version
+- Make sure the rails version you have installed is `5.2.0`
 
-* System dependencies
+- run `bundle install`
 
-* Configuration
+- run `rails db:create`
 
-* Database creation
+- run `rails g spree:install --user_class=Spree::User`
 
-* Database initialization
+- run `rails g spree:auth:install`
 
-* How to run the test suite
+- run `rails g spree:auth:install`
 
-* Services (job queues, cache servers, search engines, etc.)
+- run `rails server`
 
-* Deployment instructions
-
-* ...
+Should work
